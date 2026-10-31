@@ -1,0 +1,29 @@
+{
+  "name": "juan-bot",
+  "version": "3.0.0",
+  "description": "Bot multifuncional de WhatsApp con Baileys, modular y listo para 24/7",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "check": "node scripts/check.js",
+    "test": "node --test \"test/*.test.js\"",
+    "backup": "node scripts/backup.js"
+  },
+  "dependencies": {
+    "@cacheable/node-cache": "3.1.1",
+    "@hapi/boom": "9.1.4",
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "dotenv": "16.6.1",
+    "ffmpeg-static": "5.3.0",
+    "fluent-ffmpeg": "2.1.3",
+    "node-webpmux": "3.2.1",
+    "pino": "9.14.0",
+    "qrcode-terminal": "0.12.0",
+    "sharp": "0.35.5",
+    "youtube-dl-exec": "3.1.19"
+  }
+}
